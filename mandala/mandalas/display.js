@@ -10,7 +10,7 @@
 // mandala display <params>
 // Ex. mandala display text @name=username
 mandalaJS("display", ({ node, params }) => {
-    // param: ["text", "@name=username"]
+    // params: ["text", "@name=username"]
     const [variant, alias] = params;
 
     if (variant === "text") {

@@ -10,7 +10,7 @@
 // mandala input <params>
 // Ex. mandala input change value as username
 mandalaJS("input", ({ node, params }) => {
-    // param: ["change", "value", "as", "username"]
+    // params: ["change", "value", "as", "username"]
     const [eventName, key, mode, ...otherParams] = params;
 
     node.addEventListener(eventName, event => {

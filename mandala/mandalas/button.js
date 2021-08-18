@@ -10,7 +10,7 @@
 // mandala button <params>
 // Ex. mandala button click alert container
 mandalaJS("button", ({ node, params }) => {
-    // param: ["click", "alert", "container"]
+    // params: ["click", "alert", "container"]
     const [eventName, program, ...otherParams] = params;
 
     node.addEventListener(eventName, event => {

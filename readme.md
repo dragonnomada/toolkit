@@ -51,13 +51,13 @@ You can modify the *Form* to have funcionallity with some mandalas
 
 Now, you can use or define your own mandalas to use them into your code.
 
-> Example for `display.mandala.js`
+> Example for `mandalas/display.js`
 
 ```js
 // mandala display <params>
 // Ex. mandala display text @name=username
 mandalaJS("display", ({ node, params }) => {
-    // param: ["text", "@name=username"]
+    // params: ["text", "@name=username"]
     const [variant, alias] = params;
 
     if (variant === "text") {
